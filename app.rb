@@ -1,18 +1,6 @@
 require 'sinatra'
 
-get '/' do 
-
-	"Hello!"
+get '/cat' do 
+	erb(:index)
+end
 	
-end
-
-get '/secret' do
-
-	"I dislike poor instructions"
-end 
-
-get '/cat' do
-  "<div style='border: 3px dashed red'>
-     <img src='http://bit.ly/1eze8aE'>
-   </div>"
-end
