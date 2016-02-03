@@ -6,3 +6,5 @@ gem "rails"
 gem "sinatra"
 gem "shotgun"
 gem "slim"
+gem “capybara”
+gem "selenium-webdriver”
